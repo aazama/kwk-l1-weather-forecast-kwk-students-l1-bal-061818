@@ -32,7 +32,8 @@ def city_weather_info (weather)
 	puts "The descriptionis #{description($weather)}."
 	puts "The temperature is #{weather[temperature_farenheit]}."
 end
-location 
+
+location
 description
 weather_report
 city_weather_info
